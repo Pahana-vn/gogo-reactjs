@@ -1,5 +1,6 @@
 import './App.css';
-import BaiTapAdvance from './components/baiTapThucThanhLayoutAdvance/BaiTapAdvance';
+import DataBinding from './components/dataBinding/DataBinding';
+import DataBindingRFC from './components/dataBinding/DataBindingRFC';
 
 function App() {
   const name = 'Nhan';
@@ -12,7 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      <BaiTapAdvance />
+      <DataBinding />
+      <hr />
+      <DataBindingRFC />
     </div>
   );
 }
