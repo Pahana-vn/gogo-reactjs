@@ -1,23 +1,18 @@
 import './App.css';
-import logo from './logo.svg';
+import Home from './components/baiTapChiaLayout/Home';
 
 function App() {
+  const name = 'Nhan';
+  const age = 18;
+  const isMale = true;
+  const student = {
+    name: 'Easy Frontend'
+  };
+  const colorList = ['red', 'green', 'blue', 'yellow',];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Pham Hoai Nhan
-        </a>
-      </header>
+      <Home />
     </div>
   );
 }
