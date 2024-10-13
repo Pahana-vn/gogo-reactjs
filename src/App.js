@@ -1,5 +1,5 @@
 import './App.css';
-import HandleEvent from './components/handleEvent/HandleEvent';
+import StateDemo from './components/state/StateDemo';
 
 function App() {
   const name = 'Nhan';
@@ -15,7 +15,9 @@ function App() {
       {/* <DataBinding />
       <hr />
       <DataBindingRFC /> */}
-      <HandleEvent />
+      {/* <HandleEvent /> */}
+      {/* <RenderingCondition /> */}
+      <StateDemo />
     </div>
   );
 }
