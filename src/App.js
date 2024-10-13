@@ -1,6 +1,5 @@
 import './App.css';
-import DataBinding from './components/dataBinding/DataBinding';
-import DataBindingRFC from './components/dataBinding/DataBindingRFC';
+import HandleEvent from './components/handleEvent/HandleEvent';
 
 function App() {
   const name = 'Nhan';
@@ -13,9 +12,10 @@ function App() {
 
   return (
     <div className="App">
-      <DataBinding />
+      {/* <DataBinding />
       <hr />
-      <DataBindingRFC />
+      <DataBindingRFC /> */}
+      <HandleEvent />
     </div>
   );
 }
