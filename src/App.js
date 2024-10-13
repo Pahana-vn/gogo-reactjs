@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './components/baiTapChiaLayout/Home';
+import BaiTapAdvance from './components/baiTapThucThanhLayoutAdvance/BaiTapAdvance';
 
 function App() {
   const name = 'Nhan';
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Home />
+      <BaiTapAdvance />
     </div>
   );
 }
